@@ -31,20 +31,25 @@
               =) and we do it 10 times and show it on an ordered list below</p>
           </div>
           <div class="col-12">
-            <div class="card">
+            <div class="card my-5">
 
               <div class="card-header text-center">
-                <h3>RESULTS</h3>
+                <h3 id="card-title-results" class="d-none">RESULTS</h3>
+                <h3 id="card-title-instructions">Lets fetch 10 emails from the
+                  API</h3>
               </div>
 
               <div class="card-body">
-                <ul class="list-group">
-                  <li class="list-group-item">An item</li>
+
+                <ul class="list-group" id="list">
+                  <li class="list-group-item text-center">press button below to
+                    generate list</li>
                 </ul>
               </div>
 
               <div class="card-footer text-center">
-                <button class="btn btn-secondary">new list</button>
+                <button class="btn btn-secondary" id="get-list">new
+                  list</button>
               </div>
             </div>
           </div>
