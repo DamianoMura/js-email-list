@@ -1,15 +1,15 @@
 //we transform the for cycle from before in to a function from an event listener
 //but first we go and fetch all the DOM elements we need
-const getList      = document.getElementById('get-list');
-const list         = document.getElementById('list');
-const titleResults = document.getElementById('card-title-results');
+const getList           = document.getElementById('get-list');
+const list              = document.getElementById('list');
+const titleResults      = document.getElementById('card-title-results');
 const titleInstructions = document.getElementById('card-title-instructions');
 //we add the event listener to the button 
 getList.addEventListener('click' , () => {
   //this will empty the list from the instructions aswell as the emails present
-  titleResults.className="";
-  titleInstructions.className="d-none";
-  list.innerHTML="";
+  titleResults.className      = "";
+  titleInstructions.className = "d-none";
+  list.innerHTML              = "";
 
   //define the array in which i will insert my emails
   let emails=[];
